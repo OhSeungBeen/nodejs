@@ -26,3 +26,30 @@
 - 템플릿 문자열(백틱,`)
 - 객체 리터럴의 변화
 - 화살표 함수
+
+## 2일(2020-03-03)
+
+- 비구조화 할당(destructuring)
+- rest 문법
+- 콜백과 프로미스
+- async, await
+- 노드 모듈시스템 (exports, require)
+- Node 내장객체 - global
+
+## 3일(2020-03-04)
+
+- node내장객체 - console 객체
+- Node내장객체 - setTimeout, setInterval, setImmediate, clearTimeout, clearInterval, clearImmediate
+- __filename, __dirname, process
+- 내장모듈 - os
+- 내장모듈 - path
+- 내장모듈 - url
+- 내장모듈 - querystring
+- 내장모듈 - crypo 단방향 암호화(해시)
+- 내장모듈 - crypo 양방향 암호화
+- 내장모듈 - util(deprecated, promisfiy)
+- 내장모듈 - fs (동기,비동기 방식)
+- 버퍼와 스트림 - readstream, writestream, pipe, copyFile
+- 내장모듈 - fs (acess, mkdir, open, rename,readdir, unlik, rmdir)
+- 내장모듈 - event
+- 예왜처리 - try catch
