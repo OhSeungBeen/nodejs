@@ -88,7 +88,7 @@
 - npm version x.x.x - 패키지 버전설정
 - npm version [patch || minor || major] - patch || minor || major 한버전씩올리기
 
-## npm 패키지 배포하기
+### npm 패키지 배포하기
 - npm adduser - npm 로그인
 - npm publish - 배포
 - npm info [패키지명] - 배포한 패키지 확인하기
