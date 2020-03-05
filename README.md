@@ -53,7 +53,7 @@
 - 내장모듈 - fs (acess, mkdir, open, rename,readdir, unlik, rmdir)
 - 내장모듈 - event
 - 예왜처리 - try catch
-# node-http, npm package
+# node-http, npm-package
 ## 4일(2020-03-05)
 - http모듈 - localhost, port
 - http모듈 - 응답으로 파일 읽어 보내기
