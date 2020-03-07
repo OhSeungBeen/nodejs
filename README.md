@@ -1,4 +1,4 @@
-# node-basic
+# 📂node-basic
 
 ## 1일(2020-03-02)
 
@@ -53,7 +53,7 @@
 - 내장모듈 - fs (acess, mkdir, open, rename,readdir, unlik, rmdir)
 - 내장모듈 - event
 - 예왜처리 - try catch
-# node-http, npm-package
+# 📂node-http, 📂npm-package
 ## 4일(2020-03-05)
 - http모듈 - localhost, port
 - http모듈 - 응답으로 파일 읽어 보내기
@@ -94,7 +94,7 @@
 - npm info [패키지명] - 배포한 패키지 확인하기
 - npm unpublish [패키지명] --force - 배포한 패키지 지우기 (24시간안에 패키지를 삭제해야 가능)
 
-# node-express
+# 📂node-express
 ## 5일(2020-03-07)
 - express 설치 및 구조 이해하기
 - 미들웨어 이해하기
