@@ -1,0 +1,67 @@
+-// pug - 템플릿엔진
+//- html의 단점(조건문 , 반복문등 사용불가)를 극복하고자 나온 언어
+//- 변수, 반복문, 조건문 을 사용할 수 있다.
+//- 그외의 pug를 사용하면 include, layout을 사용하여 웹페이지에서 중복되는 부분은 include나 layout으로 해결할 수 있다.
+
+//- ex) html vs pug
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>pug</title>
+        <link rel="stylesheet" href="/stylesheet/style.css">
+    </head>
+</html>
+
+doctype html
+html
+    head
+        //- title pug
+        -const title = 'Hello'
+        -const title2 = 'Pug'
+        title= pug + ' ' + title2
+        link(rel='stylesheet', href='/stylesheets/style.css')
+        //-스타일태그 사용
+        style.
+            p{
+                color: red;
+            }
+    body
+        //- 중복되는 코드를 pug파일을 작성하여 include 할 수 있다.
+        include header
+        h1= title3 + ' ' + title4
+        //- 속성은 괄호안에 적는다
+        //- id 는 # 으로 class는 .으로 여러개를 표현할수있다.
+        //- div태그는 생략할 수 있다.
+        //- div #seungbeen( width=500)
+        #seungbeen( width=500)
+        span.express.nodejs
+        button(type='sumbit') 버튼
+        //- 조건문사용
+        if variable
+            div 참입니다.
+        else    
+            div 거짓입니다
+        //- 반복문사용
+        for i in ['사과', '배', '오랜지']
+            div= i
+        
+        //- |를 사용하여 여러줄로 입력할 수 있다.
+        //- <p>안녕하세요. 여러 줄을 입력합니다 <br/> 태그도 중간에 넣을 수 있습니다.
+        p
+            |안녕하세요
+            |여러 줄을 입력합니다
+            br
+            | 태그도 중간에 넣을 수 있습니다.
+        //- 중복되는 코드를 pug파일을 작성하여 incldue 할 수 있다.
+        include footer
+        //- 스크립트태그 사용
+        script. 
+            var messeage = 'pug';
+            alert(messeage);
+        
+
+//- 구조 자체가 공통되는부분
+        
+
+        
+

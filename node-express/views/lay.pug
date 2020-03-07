@@ -1,0 +1,22 @@
+//- 구조 자체가 공통되는부분
+
+doctype html
+html
+    head
+        -const title = 'Hello'
+        -const title2 = 'Pug'
+        title= pug + ' ' + title2
+        link(rel='stylesheet', href='/stylesheets/style.css')
+        style.
+            p{
+                color: red;
+            }
+    body
+        include header
+        //- 바뀌는 부분이 들어갈곳
+        //- block
+        block content
+        include footer
+        block script
+        script. 
+            consolg.log('hi')

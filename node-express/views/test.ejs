@@ -1,0 +1,23 @@
+<!-- ejs -->
+<!-- pug와 마찬가지로 템플릿 엔진이다. html과 유사하다. -->
+<!-- include는 있지만 layout은 없다..-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%=title %></title>
+  </head>
+  <body>
+    <% include header.ejs %>
+
+    <h1><%= title %></h1>
+    <% for (i in ['사과','배','오렌지']) { %>
+
+    <p>Welcome to <%=i %></p>
+    <% } %> <% if (title === 'ejs') { %>
+    <p>ejs 공부합시다.</p>
+    <%} else { %>
+    <p>pug 공부합시다.</p>
+    <% } %> <% include footer.ejs %>
+  </body>
+</html>
