@@ -53,7 +53,7 @@ ES6문법 실습
 - 내장모듈 - event
 - 예왜처리 - try catch
 ## 📂node-http, 📂npm-package
-###✏️ 4일(2020-03-05)
+### ✏️4일(2020-03-05)
 - http모듈 - localhost, port
 - http모듈 - 응답으로 파일 읽어 보내기
 - http모듈 - 쿠키 설정하기, req.url
