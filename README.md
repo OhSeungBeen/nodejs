@@ -1,6 +1,5 @@
 ## 📂node-basic
-
-## 1일(2020-03-02)
+✏️1일(2020-03-02)ㅋ
 
 ### node.js?
 
@@ -27,7 +26,7 @@
 - 객체 리터럴의 변화
 - 화살표 함수
 
-## 2일(2020-03-03)
+✏️2일(2020-03-03)
 
 - 비구조화 할당(destructuring)
 - rest 문법
@@ -36,7 +35,7 @@
 - 노드 모듈시스템 (exports, require)
 - Node 내장객체 - global
 
-## 3일(2020-03-04)
+✏️3일(2020-03-04)
 
 - node내장객체 - console 객체
 - Node내장객체 - setTimeout, setInterval, setImmediate, clearTimeout, clearInterval, clearImmediate
@@ -54,7 +53,7 @@
 - 내장모듈 - event
 - 예왜처리 - try catch
 ## 📂node-http, 📂npm-package
-## 4일(2020-03-05)
+✏️4일(2020-03-05)
 - http모듈 - localhost, port
 - http모듈 - 응답으로 파일 읽어 보내기
 - http모듈 - 쿠키 설정하기, req.url
@@ -95,7 +94,7 @@
 - npm unpublish [패키지명] --force - 배포한 패키지 지우기 (24시간안에 패키지를 삭제해야 가능)
 
 ## 📂node-express
-## 5일(2020-03-07)
+✏️5일(2020-03-07)
 - express 설치 및 구조 이해하기
 - 미들웨어 이해하기
 - 라우팅 미들웨어
@@ -104,7 +103,7 @@
 - 템플릿엔진 ejs 문법
 
 ## 📂node-mongoose
-## 5일(2020-03-08)
+✏️6(2020-03-08)
 - MongoDB 설치, 프로젝트 세팅(mongoose 설치등)
 - Mongoose 스키마 만들기
 - Mongoose 쿼리 작성하기
