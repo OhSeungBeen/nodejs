@@ -8,9 +8,9 @@
 - 콜백과 프로미스
 - async, await
 - 노드 모듈시스템 (exports, require)
-- Node 내장객체 - global
-- node내장객체 - console 객체
-- Node내장객체 - setTimeout, setInterval, setImmediate, clearTimeout, clearInterval, clearImmediate
+- 내장객체 - global
+- 내장객체 - console 객체
+- 내장객체 - setTimeout, setInterval, setImmediate, clearTimeout, clearInterval, clearImmediate
 - __filename, __dirname, process
 - 내장모듈 - os
 - 내장모듈 - path
@@ -71,7 +71,7 @@ npm 패키지 배포하기
 - 템플릿엔진 ejs 문법
 
 ## 📂node-mongoose
-- MongoDB 설치, 프로젝트 세팅(mongoose 설치등)
+- MongoDB 설치
 - Mongoose 스키마 만들기
 - Mongoose 쿼리 작성하기
 - Mongoose populate() 사용하기
