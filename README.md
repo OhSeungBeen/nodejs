@@ -33,7 +33,7 @@
 - REST API 구현하기
 - cluster로 멀티 프로세싱 하기
 
-npm(node package manager) ?
+npm(node package manager)
 - Node.js로 만들어진 pakage(module)을 관리
 
 SemVer 버전
